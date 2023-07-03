@@ -1,4 +1,5 @@
                             /*  Global  */
+@import 'node_modules/modern-normalize/modern-normalize.css';
 body
 {
     font-family: 'Roboto', sans-serif;
@@ -229,6 +230,9 @@ h2
     margin: 0;
     padding: 200px 0;
     background: var(--black-bg-color);
+    background-image: url("bg-image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .center-title
 {
