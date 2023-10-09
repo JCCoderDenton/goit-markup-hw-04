@@ -81,9 +81,21 @@ h2 {
   padding: 94px 0 0 0;
 }
 
-.icon {
+.upper-contact a {
   margin-right: 10px;
+  height: 20px;
 }
+
+.icon-mail {
+  margin-right: 10px;
+  vertical-align: baseline;
+}
+
+.icon-phone {
+  margin-right: 10px;
+  vertical-align: text-top;
+}
+
 .icon-color-grey {
   fill: #afb1b8;
 }
@@ -153,10 +165,10 @@ h2 {
   color: var(--black-color);
 }
 
-.upper-nav li a:hover,.upper-nav li a:focus {
+.upper-nav li a:hover,
+.upper-nav li a:focus {
   color: var(--main-color);
 }
-
 
 .upper-contact {
   padding: 0;
@@ -164,8 +176,15 @@ h2 {
   height: 16px;
   margin-left: auto;
   font-weight: 500;
+  font-size: 14px;
   display: flex;
   text-decoration: none;
+}
+
+.upper-contact li a {
+  text-decoration: none;
+  padding: 32px 0;
+  color: var(--black-color);
 }
 
 .upper-contact li {
@@ -187,11 +206,13 @@ h2 {
 .upper-contact li svg {
   fill: var(--white-grey-color);
 }
+
 .upper-contact a:hover,
 .upper-contact a:hover svg {
   fill: var(--main-color);
   color: var(--main-color);
 }
+
 .upper-contact a:focus,
 .upper-contact a:focus svg {
   fill: var(--main-color);
@@ -298,7 +319,6 @@ h2 {
   height: 44px;
   display: flex;
   justify-content: center;
-  align-items: center;
   border-radius: 50%;
   background: #FFFFFF1A;
   cursor: pointer;
@@ -485,15 +505,17 @@ h2 {
   /* transition: 0.3s; */
 }
   
+.user-social-icon-bg{
+  width: 44px;
+  height: 44px;
+}
+
 .user-social-icon-bg:hover,
 .user-social-icon-bg:focus{
   display: flex;
   position: relative;
-  width: 44px;
-  height: 44px;
   border-radius: 50%;
   background: var(--main-color);
-  /* transition: 0.3s; */
 }
 
 .user-social svg {
@@ -503,7 +525,6 @@ h2 {
 .user-social-icon-bg:hover svg,
 .user-social-icon-bg:focus svg {
   fill: var(--white-bg-color);
-  /* transition: .3s; */
 }
 
 .section-icons ul {
@@ -584,13 +605,14 @@ h2 {
   margin: 0;
 }
 
-.main-pic-list li {
+.main-pic-list a {
   border-radius: 0px 0px 4px 4px;
+  display: block;
   width: 370px;
   background: var(--white-color);
 }
-.main-pic-list li a:hover .main-pic-list-block,
-.main-pic-list li a:focus .main-pic-list-block{
+.main-pic-list a:hover ,
+.main-pic-list a:focus {
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);  
 }
 
