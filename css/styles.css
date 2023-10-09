@@ -506,8 +506,12 @@ h2 {
 }
   
 .user-social-icon-bg{
+  position: relative;
   width: 44px;
   height: 44px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
 }
 
 .user-social-icon-bg:hover,
