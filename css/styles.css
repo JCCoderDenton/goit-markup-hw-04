@@ -310,18 +310,27 @@ h2 {
 .bottom-user-social svg {
   fill: #fff;
 }
+
 .bottom-user-social {
   list-style-type: none;
 }
+
 .bottom-user-social-icon-bg {
+  display: flex;
   position: relative;
   width: 44px;
   height: 44px;
-  display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: center;
   border-radius: 50%;
   background: #FFFFFF1A;
   cursor: pointer;
+}
+
+.bottom-user-social-icon-bg svg {
+  width: 20px;
+  height: 20px;
 }
 
 .bottom-user-social-icon-bg:hover,
@@ -510,8 +519,15 @@ h2 {
   width: 44px;
   height: 44px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: center;
   cursor: pointer;
+}
+
+.user-social-icon-bg svg {
+  width: 20px;
+  height: 20px;
 }
  
 .user-social-icon-bg:hover,
